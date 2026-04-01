@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ponomar&display=swap");
+* {
+  font-family: "Ponomar", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Images1 {
+  background: url("./img/fon-11.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+.Images2 {
+  background: url("./img/fon-22.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+.Images3 {
+  background: url("./img/fon-33.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+.Images4 {
+  background: url("./img/fon-44.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+.Images5 {
+  background: url("./img/fon-55.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+.NEXT {
+  width: 200px;
+  height: 50px;
+  margin-top: 15px;
+  font-size: 30px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  transition: background-color 1s ease, color 1s ease;
+}
+.NEXT:hover {
+  box-shadow: 0 0 20px black;
+  color: black;
+  background-color: white;
+}
+
+.forma {
+  background-color: rgba(234, 195, 112, 0.6509803922);
+  border: 5px solid black;
+  border-radius: 60px;
+  backdrop-filter: blur(6px);
+  position: absolute;
+  top: 326px;
+  left: 780px;
+  width: 600px;
+  height: 490px;
+}
+.forma button {
+  width: 525px;
+  margin: 60px 0 0 40px;
+  height: 60px;
+  background-color: black;
+  color: rgb(232, 198, 117);
+  border: none;
+  border-radius: 6px;
+  font-size: 30px;
+  transition: background-color 1s ease, color 1s ease;
+}
+.forma button:hover {
+  border: 3px solid black;
+  background-color: rgb(232, 198, 117);
+  color: black;
+}
+.forma button:active {
+  box-shadow: 0 0 10px black;
+  border: none;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  width: 520px;
+  height: 56px;
+  margin: 50px 0 0 40px;
+  border: 3px solid black;
+  padding: 5px 0 0 5px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.name input {
+  font-size: 40px;
+  width: 505px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 1px 0 1px 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.name p {
+  position: absolute;
+  background-color: rgb(229, 190, 107);
+  top: 25px;
+  margin: 4px 0 0 41px;
+  padding: 0 0 0 3px;
+  left: 32.533px;
+  font-size: 20px;
+}
+
+.pick {
+  margin: 50px 0 0 40px;
+}
+.pick select {
+  background-color: #eece7f;
+  outline: 0;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 310px;
+  font-size: 30px;
+}
+
+.check {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  width: 518px;
+  height: 50px;
+  margin: 50px 0 0 40px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.check div {
+  display: flex;
+  flex-direction: row;
+}
+.check div p {
+  margin: 5px 0 0 0;
+}
+.check div:nth-child(2) {
+  margin: 0 100px 0 100px;
+}
+.check > p {
+  position: absolute;
+  padding: 0 4px 0 4px;
+  margin: 0;
+  top: 240.7px;
+  left: 76.533px;
+  font-size: 20px;
+  background-color: rgb(234, 202, 125);
+}
+
+.forma-2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  width: 2000px;
+  height: 900px;
+  border: 20px groove #9a451e;
+  backdrop-filter: blur(5px);
+}
+.forma-2 .container-1 {
+  height: 430px;
+}
+.forma-2 .container-1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 1900px;
+  height: 350px;
+  margin: 34px 0 0 30px;
+  border: 6px solid #9a451e;
+}
+.forma-2 .container-2 {
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+}
+.forma-2 .container-2 .btn {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 350px;
+}
+.forma-2 .container-2 .btn button {
+  font-size: 20px;
+  font-family: revert;
+  width: 800px;
+  height: 100px;
+  margin: 8px 0 8px 100px;
+  border-radius: 55px;
+  border: 6px solid #a75b37;
+  background-color: transparent;
+}
+.forma-2 .container-2 .btn button:hover {
+  background-color: #c99c66;
+}
+.forma-2 .container-3 {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.forma-3 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  width: 2000px;
+  height: 900px;
+  border: 20px double #897d69;
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+.forma-3 .container-1 {
+  height: 430px;
+}
+.forma-3 .container-1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  width: 1900px;
+  height: 350px;
+  margin: 34px 0 0 30px;
+  border: 6px solid #2f292b;
+  border-radius: 40px;
+}
+.forma-3 .container-2 {
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+}
+.forma-3 .container-2 .btn {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 350px;
+}
+.forma-3 .container-2 .btn button {
+  font-size: 20px;
+  font-family: revert;
+  color: white;
+  width: 800px;
+  height: 100px;
+  margin: 8px 0 8px 100px;
+  border: 6px solid #961c17;
+  background-color: transparent;
+}
+.forma-3 .container-2 .btn button:hover {
+  color: black;
+  background-color: #c99c66;
+}
+.forma-3 .container-3 {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.forma-4 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  width: 2000px;
+  height: 900px;
+  backdrop-filter: blur(5px);
+}
+.forma-4 .container-1 {
+  height: 430px;
+}
+.forma-4 .container-1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 1900px;
+  height: 350px;
+  margin: 34px 0 0 30px;
+  border: 12px double #a55828;
+  border-radius: 40px;
+}
+.forma-4 .container-2 {
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+}
+.forma-4 .container-2 .btn {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 350px;
+}
+.forma-4 .container-2 .btn button {
+  font-size: 20px;
+  font-family: revert;
+  color: white;
+  width: 800px;
+  height: 100px;
+  margin: 8px 0 8px 100px;
+  border: 12px ridge #c2692e;
+  background: #81461e;
+}
+.forma-4 .container-2 .btn button:hover {
+  background: rgba(201, 156, 102, 0.3137254902);
+  color: #81461e;
+}
+.forma-4 .container-3 {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.resultat {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 0 0 182px;
+  width: 1740.02px;
+}
+.resultat .nam {
+  display: flex;
+  justify-content: center;
+}
+.resultat .nam u {
+  margin: 42px 0 0 0;
+  font-size: 50px;
+}
+.resultat .vidpovidi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 36px;
+}
+.resultat .vidpovidi .left {
+  display: flex;
+  flex-direction: column;
+}
+.resultat .vidpovidi .left div {
+  display: flex;
+  flex-direction: row;
+}
+.resultat .vidpovidi .left div p {
+  margin: 10px 0 10px 0;
+}
+.resultat .vidpovidi .left div img {
+  height: 30px;
+  width: 30px;
+  margin: 25px 0 0 15px;
+}
+.resultat .vidpovidi .right {
+  display: flex;
+  flex-direction: column;
+}
+.resultat .vidpovidi .right div {
+  display: flex;
+  flex-direction: row;
+}
+.resultat .vidpovidi .right div p {
+  margin: 10px 0 10px 0;
+}
+.resultat .vidpovidi .right div img {
+  height: 30px;
+  width: 30px;
+  margin: 25px 0 0 15px;
+}
+.resultat .ruska {
+  margin: 10px 0 10px 0;
+  height: 5px;
+  background: black;
+}
+.resultat .infa {
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+}
+.resultat .infa div:nth-of-type(1) {
+  display: flex;
+  flex-direction: row;
+}
+.resultat .infa div:nth-of-type(1) p:nth-of-type(1) {
+  margin: 0;
+}
+.resultat .infa div:nth-of-type(1) p:nth-of-type(2) {
+  margin: 0;
+  color: blue;
+}
+.resultat .infa div:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+}
+.resultat .infa div:nth-of-type(2) p:nth-of-type(1) {
+  margin: 0;
+}
+.resultat .infa div:nth-of-type(2) p:nth-of-type(2) {
+  margin: 0;
+  color: greenyellow;
+}
+.resultat .infa div:nth-of-type(3) {
+  display: flex;
+  flex-direction: row;
+}
+.resultat .infa div:nth-of-type(3) p:nth-of-type(1) {
+  margin: 0;
+}
+.resultat .infa div:nth-of-type(3) p:nth-of-type(2) {
+  margin: 0;
+  color: red;
+}
+.resultat .knp {
+  margin: 30px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.resultat .knp button {
+  width: 525px;
+  margin: 0 0 0 40px;
+  height: 60px;
+  background-color: black;
+  color: rgb(232, 198, 117);
+  border: none;
+  border-radius: 6px;
+  font-size: 30px;
+  transition: background-color 1s ease, color 1s ease;
+}
+.resultat .knp button:hover {
+  border: 3px solid black;
+  background-color: rgb(232, 198, 117);
+  color: black;
+}
+.resultat .knp button:active {
+  box-shadow: 0 0 10px black;
+  border: none;
+}/*# sourceMappingURL=index.css.map */

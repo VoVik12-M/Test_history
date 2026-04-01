@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ponomar&display=swap');
+
+// _________________Змінні_______________________
+$color-border: black;
+$color-fon: rgba(234, 195, 112, 0.6509803922);
+
+$img-fon-1: url('./img/fon-11.png');
+$img-fon-2: url('./img/fon-22.png');
+$img-fon-3: url('./img/fon-33.png');
+$img-fon-4: url('./img/fon-44.png');
+$img-fon-5: url('./img/fon-55.png');
+// ______________________________________________
+
+* {
+  font-family: "Ponomar", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Images1 {
+  background: $img-fon-1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+.Images2 {
+  background: $img-fon-2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+.Images3 {
+  background: $img-fon-3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+.Images4 {
+  background: $img-fon-4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+.Images5 {
+  background: $img-fon-5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+// _____________________________________________Кнопка NEXT______________________
+
+.NEXT {
+  width: 200px;
+  height: 50px;
+  margin-top: 15px;
+  font-size: 30px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  transition: background-color 1s ease, color 1s ease;
+  &:hover{
+    box-shadow: 0 0 20px black;
+    color: black;
+    background-color: white;
+
+  }
+}
+
+// ______________________________________________________________________________
+
+// ______________________________1 сторінка_________________________
+
+.forma {
+  background-color: $color-fon;
+  border: 5px solid $color-border;
+  border-radius: 60px;
+  backdrop-filter: blur(6px);
+  position: absolute;
+  top: 326px;
+  left: 780px;
+  width: 600px;
+  height: 490px;
+  & button {
+    width: 525px;
+    margin: 60px 0 0 40px;
+    height: 60px;
+    background-color: black;
+    color: rgb(232, 198, 117);
+    border: none;
+    border-radius: 6px;
+    font-size: 30px;
+    transition: background-color 1s ease, color 1s ease;
+    &:hover {
+      border: 3px solid black;
+      background-color: rgb(232, 198, 117);
+      color: black;
+    }
+    &:active {
+      box-shadow: 0 0 10px black;
+      border: none;
+    }
+  }
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    width: 520px;
+    height: 56px;
+    margin: 50px 0 0 40px;
+    border: 3px solid $color-border;
+    padding: 5px 0 0 5px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    & input {
+      font-size: 40px;
+      width: 505px;
+      height: 40px;
+      box-sizing: border-box;
+      padding: 1px 0 1px 0;
+      border: none;
+      background-color: transparent;
+      outline: none;
+    };
+    & p {
+      position: absolute;
+      background-color: rgb(229, 190, 107);
+      top: 25px;
+      margin: 4px 0 0 41px;
+      padding: 0 0 0 3px;
+      left: 32.533px;
+      font-size: 20px;
+    }
+  }
+
+.pick {
+  margin: 50px 0 0 40px;
+  & select {
+    background-color: #eece7f;
+    outline: 0;
+    border: 3px solid $color-border;
+    border-radius: 5px;
+    width: 310px;
+    font-size: 30px;
+  }
+}
+
+.check {
+  border: 3px solid $color-border;
+  display: flex;
+  flex-direction: row;
+  width: 518px;
+  height: 50px;
+  margin: 50px 0 0 40px;
+  border-radius: 5px;
+  font-size: 25px;
+  & div {
+    display: flex;
+    flex-direction: row;
+    & p {
+      margin: 5px 0 0 0;
+    }
+  }
+  & div:nth-child(2) {
+    margin: 0 100px 0 100px;
+  }
+  & >p {
+    position: absolute;
+    padding: 0 4px 0 4px;
+    margin: 0;
+    top: 240.7px;
+    left: 76.533px;
+    font-size: 20px;
+    background-color: rgb(234, 202, 125);
+  }
+}
+
+// ____________________2 сторінка________________________
+
+.forma-2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  width: 2000px;
+  height: 900px;
+  border: 20px groove #9a451e;
+  backdrop-filter: blur(5px);
+  & .container-1 {
+    height: 430px;
+    & div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      width: 1900px;
+      height: 350px;
+      margin: 34px 0 0 30px;
+      border: 6px solid #9a451e;
+    }
+  }
+  & .container-2 {
+      height: 350px;
+      display: flex;
+      flex-direction: row;
+      height: 350px;
+      & .btn {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        height: 350px;
+        & button {
+          font-size: 20px;
+          font-family: revert;
+          width: 800px;
+          height: 100px;
+          margin: 8px 0 8px 100px;
+          border-radius: 55px;
+          border: 6px solid #a75b37;
+          background-color: transparent;
+          &:hover {
+            background-color: #c99c66;
+          }
+        }
+      }
+  }
+  & .container-3 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+  }
+}
+
+// _________________________3 сторінка _____________________
+
+.forma-3 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  width: 2000px;
+  height: 900px;
+  border: 20px double #897d69;
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  & .container-1 {
+    height: 430px;
+    & div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      color: white;
+      width: 1900px;
+      height: 350px;
+      margin: 34px 0 0 30px;
+      border: 6px solid #2f292b;
+      border-radius: 40px;
+    }
+  }
+  & .container-2 {
+      height: 350px;
+      display: flex;
+      flex-direction: row;
+      height: 350px;
+      & .btn {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        height: 350px;
+        & button {
+          font-size: 20px;
+          font-family: revert;
+          color: white;
+          width: 800px;
+          height: 100px;
+          margin: 8px 0 8px 100px;
+          border: 6px solid #961c17;
+          background-color: transparent;
+          &:hover {
+            color: black;
+            background-color: #c99c66;
+          }
+        }
+      }
+  }
+  & .container-3 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+  }
+}
+
+// _____________________________4 сторінка __________________
+
+.forma-4 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  width: 2000px;
+  height: 900px;
+  // border: 20px double #897d69;
+  backdrop-filter: blur(5px);
+  // border-radius: 50px;
+  & .container-1 {
+    height: 430px;
+    & div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      width: 1900px;
+      height: 350px;
+      margin: 34px 0 0 30px;
+      border: 12px double #a55828;
+      border-radius: 40px;
+    }
+  }
+  & .container-2 {
+      height: 350px;
+      display: flex;
+      flex-direction: row;
+      height: 350px;
+      & .btn {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        height: 350px;
+        & button {
+          font-size: 20px;
+          font-family: revert;
+          color: white;
+          width: 800px;
+          height: 100px;
+          margin: 8px 0 8px 100px;
+          border: 12px ridge #c2692e;
+          background: #81461e;
+          &:hover {
+            background: #c99c6650;
+            color: #81461e;
+          }
+        }
+      }
+  }
+  & .container-3 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+  }
+}
+
+// ___________________Сторінка 5_________________________________
+
+.resultat {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 0 0 182px;
+  width: 1740.02px;
+  // backdrop-filter: blur(5px);
+  & .nam {
+    display: flex;
+    justify-content: center;
+    & u {
+      margin: 42px 0 0 0;
+      font-size: 50px;
+    }
+  }
+  & .vidpovidi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 36px;
+    & .left {
+      display: flex;
+      flex-direction: column;
+      & div {
+        display: flex;
+        flex-direction: row;
+        & p {
+          margin: 10px 0 10px 0;
+        }
+        & img {
+          height: 30px;
+          width: 30px;
+          margin: 25px 0 0 15px;
+        }
+      }
+    }
+    & .right {
+      display: flex;
+      flex-direction: column;
+      & div {
+        display: flex;
+        flex-direction: row;
+        & p {
+          margin: 10px 0 10px 0;
+        }
+        & img {
+          height: 30px;
+          width: 30px;
+          margin: 25px 0 0 15px;
+        }
+      }
+    }
+  }
+  & .ruska {
+    margin: 10px 0 10px 0;
+    height: 5px;
+    background: black;
+  }
+  & .infa {
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    & div:nth-of-type(1) {
+      display: flex;
+      flex-direction: row;
+      & p:nth-of-type(1) {
+        margin: 0;
+      }
+      & p:nth-of-type(2) {
+        margin: 0;
+        color: blue;
+      }
+    }
+    & div:nth-of-type(2) {
+      display: flex;
+      flex-direction: row;
+      & p:nth-of-type(1) {
+        margin: 0;
+      }
+      & p:nth-of-type(2) {
+        margin: 0;
+        color: greenyellow;
+      }
+    }
+    & div:nth-of-type(3) {
+      display: flex;
+      flex-direction: row;
+      & p:nth-of-type(1) {
+        margin: 0;
+      }
+      & p:nth-of-type(2) {
+        margin: 0;
+        color: red;
+      }
+    }
+  }
+  & .knp {
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+    & button {
+      width: 525px;
+      margin: 0 0 0 40px;
+      height: 60px;
+      background-color: black;
+      color: rgb(232, 198, 117);
+      border: none;
+      border-radius: 6px;
+      font-size: 30px;
+      transition: background-color 1s ease, color 1s ease;
+      &:hover {
+        border: 3px solid black;
+        background-color: rgb(232, 198, 117);
+        color: black;
+      }
+      &:active {
+        box-shadow: 0 0 10px black;
+        border: none;
+      }
+    }
+  }
+}
