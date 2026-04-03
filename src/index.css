@@ -7,35 +7,35 @@
 }
 
 .Images1 {
-  background: url("./img/fon-11.png");
+  background: url("/img/fon-11.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 98vh;
 }
 
 .Images2 {
-  background: url("./img/fon-22.png");
+  background: url("/img/fon-22.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 98vh;
 }
 
 .Images3 {
-  background: url("./img/fon-33.png");
+  background: url("/img/fon-33.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 98vh;
 }
 
 .Images4 {
-  background: url("./img/fon-44.png");
+  background: url("/img/fon-44.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 98vh;
 }
 
 .Images5 {
-  background: url("./img/fon-55.png");
+  background: url("/img/fon-55.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 98vh;
