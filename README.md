@@ -1,16 +1,22 @@
-# React + Vite
+## Це веб-программа з тестування по історії і Української літератури.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Реєстраційка**  
+*На 1 2 і 3 картинці зображено*  
+1. Вводимо своє ім'я.  
+2. Обираємо тему.  
+3. Обираємо рівень важкості тесту.  
 
-Currently, two official plugins are available:
+![picture](/public/photo/2_p.png)
+![picture](/public/photo/3_p.png)
+![picture](/public/photo/4_p.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Картинка де зображено процес тестування.
+![picture](/public/photo/5_p.png)
 
-## React Compiler
+## Картинка де зображено кінець тестування.
+**В ній описано скільки було зроблено правильних і неправильних відповідей**  
+**Загальна кількість питань 10**
+![picture](/public/photo/6_p.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Посилання на проект!  
+[Тестування](https://test-history-eta.vercel.app/)
